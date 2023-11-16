@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div className='nav'>
      <div className="nav-logo">
-     Logo
+    <h2>EduWave</h2>
      </div>
 
      <div className="nav-links">
