@@ -1,0 +1,27 @@
+.login-main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-main .login{
+    border-radius: 9px;
+    display: flex;
+    width: 750px;
+    background-color: #ffe7cc;
+} 
+.login .login-image{
+    border-radius: 9px 9px 15px 9px;
+    background-color: #ffe7cc;
+    width: 45%;
+}
+.login .login-form{
+    border-radius: 25px 9px 9px 25px;
+    background-color: #fff;
+    width: 60%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

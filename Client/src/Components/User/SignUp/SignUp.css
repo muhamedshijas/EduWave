@@ -1,0 +1,14 @@
+.signup-main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup-main .signup{
+    display: flex;
+    width: 750px;
+    background-color: white;
+} 
+.signup .signup-image{
+    width: 50%;
+}

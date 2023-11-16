@@ -1,0 +1,67 @@
+body {
+  background-color: #ecf9ff;
+}
+.main-section {
+  display: flex;
+  margin-top: 0px !important;
+  justify-content: space-around;
+  align-items: center;
+}
+.text-data {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+.text-data h1 {
+  color: #000;
+}
+.text-data p {
+  color: #666;
+}
+.main-section .text-data .btns button {
+  padding: 8px;
+  background-color: #fffbeb;
+  border: none;
+  border-radius: 7px;
+  width: 200px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #000;
+}
+.main-section .text-data .btns {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+.main-section .text-data .btns button:hover {
+  background-color: #ffe7cc;
+  color: #000;
+}
+.second-section {
+  margin-top: 20px;
+  display: flex;
+  margin-top: 0px !important;
+  justify-content: space-around;
+  align-items: center;
+}
+.second-section .text-data {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.second-section .text-data .btns button {
+  padding: 8px;
+  background-color: #ffe7cc;
+  border: none;
+  border-radius: 7px;
+  width: 200px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #000;
+}
+.second-section .text-data .btns button:hover {
+  background-color: #fffbeb;
+  color: #000;
+}
