@@ -17,7 +17,13 @@ function Login() {
       <form action="">
       <MDBInput wrapperClass='mb-4' label='Email address' id='formControlLg' type='email' size="lg" value={email} onChange={(e)=>setEmail(e.target.value)} />
       <MDBInput wrapperClass='mb-4' label='Password' id='formControlLg' type='password' size="lg"  value={password} onChange={(e)=>setPassword(e.target.value)}/>
+      <div className="forget w-100">
+      <p className='text-primary'> Forget Password</p>
+      </div>
+      <button>Submit</button>
       </form>
+      <p>New User Sign up here</p>
+      
       </div>
       </div>
       </section>
