@@ -2,6 +2,7 @@ import React from "react";
 import "./UserHome.css";
 import mainImage from "../../../assets/images/second-image.png";
 import secondImage from "../../../assets/images/main-image.png";
+import thirdImage from "../../../assets/images/third-image.png";
 import Navbar from "../Navbar/Navbar";
 function UserHome() {
   return (
@@ -18,14 +19,14 @@ function UserHome() {
             <button className="explore-btn">Explore Now</button>
             <button className="demo-btn">Request a Free Demo</button>
           </div>
-        </div>
+        </div> 
         <div className="image">
-          <img src={mainImage} alt="" srcset="" />
+          <img src={secondImage} alt="" srcset="" />
         </div>
       </section>
       <section className="second-section">
         <div className="image">
-          <img src={secondImage} alt="" srcset="" />
+          <img src={thirdImage} alt="" srcset="" />
         </div>
         <div className="text-data">
           <h1>Unlock Different Plans for the Enhancing experience</h1>
@@ -56,7 +57,7 @@ function UserHome() {
           </div>
         </div>
         <div className="image">
-          <img src={secondImage} alt="" srcset="" />
+          <img src={mainImage} alt="" srcset="" />
         </div>
       </section>
     </div>
